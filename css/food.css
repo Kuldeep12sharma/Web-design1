@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff2b85;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.banner{
+    /* background: url(../image/about-foodpanda-1920x539\ \(1\).jpeg); */
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1.0)),url(../image/about-foodpanda-1920x539\ \(1\).jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+
+}
+.banner h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 209px;
+    width: 35%;
+    margin: auto;
+    text-transform: uppercase;
+}
+.news{
+    background: #ff2b85;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.news marquee{
+    line-height: 50px;
+
+}
+.about{
+    padding: 100px 200px;
+    text-align: center;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+}
+.about p{
+    font-family: monospace;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.about button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.press{
+    padding: 100px 200px;
+    text-align: center;
+    background: url(../image/flat-lay-arrangement-with-salad-box-sauce_23-2148247883.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+}
+.press p{
+    font-family: monospace;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.press button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.team{
+    padding: 100px 200px;
+    text-align: center;
+    background: url(../image/images.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.team h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+}
+.team p{
+    font-family: monospace;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.team button{
+    width: 171px;
+    height: 47px;
+    background: #ff2b85;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.contact{
+    padding: 100px 200px;
+    text-align: center;
+    background: #ff2b85
+}
+.contact h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    margin-bottom: 10px;
+}
+.contact p{
+    font-family: monospace;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+.contact button{
+    width: 171px;
+    height: 47px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 80px 3% 70px;
+    display: flex;
+    justify-content: space-between;
+    
+   /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 3.5rem; */
+    background: #1a242f;
+}
+.footer-content h4{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+    list-style: none;
+}
+.footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all.40s ease;
+}
+.footer-content li a:hover{
+    transform: translater(-3px) translatex(-5px);
+    color: white;
+}
+.footer-content p{
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}

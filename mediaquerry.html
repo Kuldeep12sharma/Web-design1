@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .responsive{
+        background: black;
+        color: white;
+    }
+    .responsive h1{
+        font-size: 100px;
+        text-align: center;
+    }
+    @media (max-width:1000px) {
+        .responsive {
+            background: rebeccapurple;
+            color: white;
+        }
+        .responsive h1{
+            font-size: 80px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    @media (max-width:768px) {
+        .responsive {
+            background: rgb(51, 153, 61);
+            color: white;
+        }
+        .responsive h1{
+            font-size: 40px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="responsive">
+        <h1>Hello Gwalior</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur vel exercitationem laudantium laboriosam quo quod nobis, maiores ipsum eaque in ducimus sapiente perspiciatis sint sunt officiis aliquam labore, nam ratione.</p>
+
+    </div>
+</body>
+</html>
