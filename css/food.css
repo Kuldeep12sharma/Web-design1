@@ -85,6 +85,9 @@ nav .menu a{
     border: none;
     border-radius: 12px;
 }
+.about button:hover{
+    background: linear-gradient(to right, red,green,blue);
+}
 .press{
     padding: 100px 200px;
     text-align: center;
@@ -117,6 +120,10 @@ nav .menu a{
     border: none;
     border-radius: 12px;
 }
+.press button:hover{
+    background: linear-gradient(to right, red,green,blue);
+}
+
 .team{
     padding: 100px 200px;
     text-align: center;
@@ -149,6 +156,9 @@ nav .menu a{
     border: none;
     border-radius: 12px;
 }
+.team button:hover{
+    background: linear-gradient(to right, red,green,blue);
+}
 .contact{
     padding: 100px 200px;
     text-align: center;
@@ -178,6 +188,9 @@ nav .menu a{
     border: none;
     border-radius: 12px;
 }
+.contact button:hover{
+    background: linear-gradient(to right, red,green,blue);
+}
 
 footer{
     width: 100%;
@@ -206,6 +219,7 @@ footer{
     font-size: 15px;
     font-weight: 400;
     transition: all.40s ease;
+    text-decoration: none;
 }
 .footer-content li a:hover{
     transform: translater(-3px) translatex(-5px);
